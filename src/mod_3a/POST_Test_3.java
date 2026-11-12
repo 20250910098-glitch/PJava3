@@ -31,7 +31,7 @@ public class POST_Test_3 {
         }
         System.out.print("\nNo.\tNIM\tNAMA\tTugas\tUTS\tUAS\tRata-Ratan\n");
         for (int i = 0; i<jumlah; i++){
-            System.out.println((i+1)+"\t" +mahasiswa[i][0] 
+            System.out.print((i+1)+"\t" +mahasiswa[i][0] 
             +"\t" + mahasiswa[i][1] +"\t" + mahasiswa[i][2] +"\t"+mahasiswa[i][3]+"\t"
             +mahasiswa[i][4] +"\t");
             System.out.printf("%.2f%n", Double.parseDouble(mahasiswa[i][5]));
